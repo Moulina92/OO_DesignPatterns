@@ -1,4 +1,4 @@
-package src.creationalPatterns.builder;
+package src.creational.builder;
 
 public class Computer {
 
@@ -41,9 +41,9 @@ public class Computer {
         private boolean isGraphicsCardEnabled;
         private boolean isBluetoothEnabled;
 
-        public ComputerBuilder(String HDD, String RAM){
-            this.hdd = HDD;
-            this.ram = RAM;
+        public ComputerBuilder(String hdd, String ram){
+            this.hdd = hdd;
+            this.ram = ram;
         }
 
         public ComputerBuilder setIsGraphicsCardEnabled(boolean isGraphicsCardEnabled){

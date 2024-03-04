@@ -1,4 +1,4 @@
-package src.creationalPatterns.singleton;
+package src.creational.singleton;
 
 public class Computer {
     private volatile static Computer instance;
